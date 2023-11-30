@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width:100%;
+    font-family: 'Rubik', sans-serif;
+}
+
+:root{
+    --Very-Dark-Gray: hsl(0, 0%, 17%);
+    --Dark-Gray: hsl(0, 0%, 59%);
+}
+
+.first-container{
+    height: 40vh;
+    width: 100%;
+    background-image: url(./images/pattern-bg-desktop.png);
+}
+
+.inner-first-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    padding-top: 20px;
+}
+
+.inner-first-container h2{
+    margin-bottom: 20px;
+    color:#fff;
+}
+
+.inner-first-container span{
+    display: inline;
+    height: 36px;
+    width:38px;
+    background-color: black;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    position: relative;
+    left: 190px;
+    bottom:35.5px;
+    cursor: pointer;
+}
+
+.inner-first-container span img{
+    position: relative;
+    top:10px;
+    left:12px;
+    
+}
+
+.input input{
+    border: none;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    outline: none;
+    padding: 10px;
+    width: 200%;
+    position: relative;
+    right: 100px;
+}
+
+#map{ 
+    height: 80vh;
+    width: 100%;
+}
